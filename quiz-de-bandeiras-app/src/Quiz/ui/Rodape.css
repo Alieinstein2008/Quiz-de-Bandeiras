@@ -1,0 +1,40 @@
+.rodape{
+    width:100%;
+    height:2.5rem;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.copyright{
+    width: 20%;
+    height: fit-content;
+}
+
+.copyright p{
+    font-size:small;
+    color: aliceblue;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+.contatos p{
+    color: aliceblue;
+    font-size: small;
+}
+.contatos img{
+    width: 2rem;
+    height: 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-inline: 10px;
+}
