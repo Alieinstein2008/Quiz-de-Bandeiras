@@ -1,4 +1,4 @@
-import Quiz from './componentes/Quiz';
+import Quiz from './ui/Quiz';
 function App() {
   return (
     <Quiz/>
