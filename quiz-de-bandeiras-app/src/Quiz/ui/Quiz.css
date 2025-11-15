@@ -99,6 +99,7 @@ body{
     height: fit-content;
     margin-bottom: 5%;
     margin-top: 5%;
+    
 }
 .frameButtons button{
     width: 100px;
@@ -106,6 +107,7 @@ body{
     color: #ffffff;
     border-radius: 10px;
     border: 1px solid #000000;
+    cursor: pointer;
    
 
 
