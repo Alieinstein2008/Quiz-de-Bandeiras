@@ -14,9 +14,9 @@ export default function UserInput({ idInput, textoInput, onChangeInput,resposta,
                 
                        
             />
-            {resposta === '404' && <div style={{color:'white', textAlign:'center'}}>Digite um país válido</div> }
-            {resposta === 'certa' && <div style={{color:'green', textAlign:'center', border:'2px double green', borderRadius:'15px' }}>{nome}</div> }
-            {resposta === 'errada' && <div style={{color:'white', textAlign:'center', borderRadius:'15px'}}>{nome}</div> }
+            {resposta === '404' && <div style={{color:'white', textAlign:'center', fontSize:'smaller'}}>Digite um país válido</div> }
+            {resposta === 'certa' && <div style={{color:'green', textAlign:'center', border:'2px double green', borderRadius:'15px',fontSize:'smaller' }}>{nome}</div> }
+            {resposta === 'errada' && <div style={{color:'white', textAlign:'center', borderRadius:'15px',fontSize:'smaller'}}>{nome}</div> }
             </div>
             
         </>
