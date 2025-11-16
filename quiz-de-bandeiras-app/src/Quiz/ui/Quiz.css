@@ -9,7 +9,7 @@ body{
     margin: auto;                                    
     display: block;
     background-color:#06141b;
-    border: solid 5px #11212d;
+    border: solid 5px rgba(255, 255, 255, 0.041);
     border-radius: 15px;
     overflow: hidden;
     display: flex;
@@ -18,7 +18,9 @@ body{
     margin-bottom: 2%;
     justify-content: center;
     align-items: center;
-    
+    box-shadow: 7px 4px 5px 0px rgba(236, 9, 9, 0.84);
+-webkit-box-shadow: 7px 4px 5px 0px rgba(212, 10, 10, 0.84);
+-moz-box-shadow: 7px 4px 5px 0px rgba(192, 21, 21, 0.84);
 }
 
 .Quiz #divTitulo{
@@ -97,12 +99,14 @@ body{
 .frameButtons{
     width: fit-content;
     height: fit-content;
+    margin: 5% 0 5% 0;
     margin-bottom: 5%;
     margin-top: 5%;
 }
 .frameButtons button{
     width: 100px;
-    height: 25px;
+    height: 40px;
+    
     color: #ffffff;
     border-radius: 10px;
     border: 1px solid #000000;
@@ -111,11 +115,21 @@ body{
 
 }
 #btngreen{
-    background-color: #00ff15;
+    background-color: #11212d;
    
+}
+ #btngreen:hover{ 
+   background-color: green;
+   transition: all 0.4s;
 }
 #btnred{
     background-color: #ff0000;
   
    
+}
+@media screen and (max-width: 600px) {
+    .Quiz{
+    width: 300px;
+    height: 500px;
+    }
 }
