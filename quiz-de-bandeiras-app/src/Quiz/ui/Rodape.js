@@ -1,7 +1,5 @@
 import './Rodape.css'
-import gitIcon from '../icons/github-icon.svg';
-import instagramIcon from '../icons/instagram-icon.svg';
-import linkedinIcon from '../icons/linkedin-icon.svg';
+
 
 export default function Rodape(){
     
