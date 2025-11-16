@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -97,3 +98,65 @@ footer h3 {
     text-align: center;
   }
 }
+=======
+.rodape{
+    width:100%;
+    height:5dvh;
+    overflow: hidden;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.copyright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right:1.5% ;
+}
+
+.copyright p{
+    font-size:1.5ch;
+    color: aliceblue;
+}
+
+.contatos{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width:50%;
+    height:100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+
+
+.contatos .frameIconGroup{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contatos .frameIcon{
+    width:8%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contatos a{
+    width:100%;
+    height:100%;
+}
+.contatos img{
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+}
+>>>>>>> e65204038e51d6b40347bb0d6c73f9938881c0d6
