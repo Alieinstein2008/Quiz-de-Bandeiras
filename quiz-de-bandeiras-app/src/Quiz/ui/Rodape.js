@@ -13,7 +13,7 @@ export default function Rodape(){
                         <h3>Contato</h3>
                     </li>
                     <li>
-                        <p className="footer-link">E-mail: arthuralonsobussines@gmail.com</p>
+                        <p  className="footer-link">E-mail: arthuralonsobussines@gmail.com</p>
                     </li>
                     <li>
                         <p className="footer-link">Telefone: (32) 9198-6860</p>
@@ -33,7 +33,7 @@ export default function Rodape(){
                             target="_blank" className="footer-link">
                            <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/arthuralonsomarcelino?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        <a href="https://www.linkedin.com/in/arthuralonsomarcelino/"
                             target="_blank" className="footer-link">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
