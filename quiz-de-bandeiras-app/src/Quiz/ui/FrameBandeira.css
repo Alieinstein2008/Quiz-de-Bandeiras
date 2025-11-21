@@ -1,7 +1,7 @@
 .frameBandeira{
     background-color: #ccd0cf;
     width: 326px;
-    height: 217px;
+    height: 200px;
     margin-top: 5%;
     margin-bottom: 5%;
    
@@ -10,4 +10,12 @@
 .frameBandeira img{
     width:100%;
     height:100%;
+}
+
+@media screen and (max-width: 600px) {
+    .frameBandeira {
+        width:276px;
+        height:167px;
+
+    }
 }
